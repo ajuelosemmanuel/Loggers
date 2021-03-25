@@ -1,4 +1,6 @@
 # Loggers
+<img src="https://i.kym-cdn.com/photos/images/newsfeed/001/936/731/94b.png" width = 250>
+
 Discord bot to gather every message from a text channel
 
 # Commands
