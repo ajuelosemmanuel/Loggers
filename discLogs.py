@@ -13,6 +13,7 @@ async def on_ready():
 @client.group(invoke_without_command=True)
 async def help(ctx):
     em = discord.Embed(title = "Help", description = "Prefix : . ")
+    em.set_thumbnail(url="https://camo.githubusercontent.com/c8371bbfb15c624f16412966cd39a59bb30c29286ceb66f3e03677ca410f65af/68747470733a2f2f692e6b796d2d63646e2e636f6d2f70686f746f732f696d616765732f6e657773666565642f3030312f3933362f3733312f3934622e706e67")
     em.add_field(name = "servers", value = "Usage : .servers")
     em.add_field(name = "channelsOf", value = "Usage : .channelsOf servName")
     em.add_field(name = "loggers", value = "loggers servName chanName (txt=False) (l=1000)")
