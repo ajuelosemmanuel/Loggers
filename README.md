@@ -3,6 +3,10 @@
 
 Discord bot to gather every message from a text channel
 
+It can be used to save chats (by either creating txt files or writing everything in a new channel).
+
+Another usage could be some "spying" on channels you can't read as a user : if your bot has more permissions than you, you may run this one with your bot's api key and then "read" the content of hidden channels.
+
 ## Commands
 Prefix : .
 
