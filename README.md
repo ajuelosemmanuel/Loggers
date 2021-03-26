@@ -8,11 +8,9 @@ Prefix : .
 
 + servers : sends the name of each server the bot is in
 + channelsOf servName : sends the name of each text channel the bot can access on a given server
-+ loggers servName chanName (l=1000) : sends the last l (default : 1000) messages from a given channel of a given server. Supports embeds and media
++ loggers servName chanName (txt=False) (l=1000) : sends the last l (default : 1000) messages from a given channel of a given server. Supports embeds and media. The txt argument is a boolean : will send a txt file instead of sending messages (slowly but surely !)
 
 ## Requirements
 
 + discord.py
 + filling up the config.py file
-## To Do
-+ add a "save" option that sends a .txt file with all the text only messages
