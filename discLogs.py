@@ -20,7 +20,7 @@ async def help(
     em.add_field(name = "Full info at", value = "https://github.com/ajuelosemmanuel/Loggers")
     await ctx.respond(embed = em)
 
-@bot.slash_command(description="Sends the name of each server the bot is connected to")
+@bot.slash_command(description="Sends the name of each server to which the bot is connected")
 async def servers(
         ctx : discord.ApplicationContext
 ):
@@ -34,7 +34,7 @@ async def servers(
                 ans += s.name+"\n"
             await ctx.respond(ans)
 
-@bot.slash_command(description="Sends the name of each text channel the bot can access on a given server")
+@bot.slash_command(description="Sends a list of the textual channels to which the bot has access")
 async def channels_of(
         ctx : discord.ApplicationContext,
         serv_name : discord.Option(str, "Name of the server")
